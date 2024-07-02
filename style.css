@@ -1,0 +1,172 @@
+
+/* =======font style google font import====== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* =====font style end google font===== */
+
+/* ======COMMON CSS===== */
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+}
+
+ul,ol{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    display:inline-block; 
+}
+
+.container{
+
+    width:1298px;
+    margin:0 auto;    
+}
+/* ====common css end==== */
+
+
+/* -- ==================menu part start=============== -- */
+
+.main_menu{
+    width:100%;
+    padding-top:52px;
+    padding-bottom:112px;
+
+    /* eikhane margin er jaigay padding use korar
+    karon ase..margin use kore color change kore dekhle
+    bujha jabe keno padding nea hoise */
+}
+
+.menu_row{
+
+display:flex;
+justify-content:  space-between;
+align-items: center;
+}
+.menu_row .logo_col img{
+    width:133px;
+}
+
+.menu_col ul{
+
+display:flex;
+gap:59px;
+
+
+
+}
+.menu_col ul li a{
+
+font-size: 24;
+font-weight: 600;
+font-family:"poppins",sans-serif;
+color:black;
+transition: all linear .3s;
+
+
+}
+.menu_col ul li a:hover{
+color:#FDBB57;
+
+}
+.menu_button{
+    display:flex;
+    gap:10px;
+
+}
+.menu_button a{
+width:121px;
+height:57px;
+border:1px solid #FDBB57;
+border-radius: 10px;
+text-align: center;
+line-height:57px;
+/* line height y axis borabor..etar height button tar height er shoman */
+font-size:24;
+font-weight: 600px;
+font-family:"poppins",sans-serif;
+color:black;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+transition: all linear .3s;
+
+/* margin-left:10px; */
+
+
+}
+
+.menu_button a:hover{
+
+    background-color: #FDBB57;
+}
+
+
+/* -- ==================menu part end=============== -- */
+
+/* ======Banner part start====== */
+.banner_row{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.banner_row .banner_text h1{
+    width:437px;
+
+    /* width use korte hobe instead of
+    break */
+    font-size:64px;
+    font-weight: 600;
+    font-family:"poppins",sans-serif;
+    color:black;
+}
+
+.banner_row .banner_text p{
+    width:531px;
+    font-size:22px;
+    font-weight:400;
+    color:black;
+    font-family:"poppins",sans-serif;
+    margin-top:38px;
+    margin-bottom:76px;
+
+
+
+}
+.banner_row .banner_text .banner_button a{
+    /* ekhane direct button er upor css na diye
+    anchor er upor css dite hoy karon amra button
+    er upor click korle new page chai */
+
+width:319px;
+height:86px;
+border-radius:10px;
+background-color: black;
+color:white;
+font-family:"poppins",sans-serif;
+text-align: center;
+line-height: 86px;
+font-size: 24px;
+font-weight: 600;
+
+}
+ .banner_text .banner_button a:active{
+    transform:scale(1.1);
+
+ }
+.banner_image img{
+width:534px;
+
+
+}
+
+
+
+/* ======Banner part end====== */
